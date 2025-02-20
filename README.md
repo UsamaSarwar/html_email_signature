@@ -3,14 +3,14 @@
 This repository contains a simple and customizable email signature template. You can easily generate your own email signature by following the instructions below.
 
 ## Live Demo
-You can view a live demo of the email signature template at: [Live Demo](https://usamasarwar.github.io/email_signature/)
+You can view a live demo of the email signature template at: [Live Demo](https://usamasarwar.github.io/html_email_signature/)
 
 ## How to Generate Your Email Signature
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/UsamaSarwar/email_signature.git
-   cd email_signature
+   git clone https://github.com/UsamaSarwar/html_email_signature.git
+   cd html_email_signature
    ```
 
 2. **Update HTML and CSS:**
@@ -37,11 +37,11 @@ You can view a live demo of the email signature template at: [Live Demo](https:/
    - Click `Save`.
 
 3. **Access Your Published Page:**
-   After enabling GitHub Pages, your email signature will be available at `https://<your-username>.github.io/email_signature/`.
+   After enabling GitHub Pages, your email signature will be available at `https://<your-username>.github.io/html_email_signature/`.
 
 ## Contributing
 
-If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request. We welcome contributions to enhance this template further!
 
 ## License
 
