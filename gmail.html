@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        :root {
+            --sign-primary-color: #0c3330;
+            --sign-accent-color: #e9ab22;
+            --sign-text-color: #333333;
+            --sign-description-color: #333333;
+            --sign-border-color: #dddddd;
+            --sign-background-color: #f9f9f9;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --sign-primary-color: #e9ab22;
+                --sign-accent-color: #0c3330;
+                --sign-text-color: #f9f9f9;
+                --sign-description-color: #dddddd;
+                --sign-border-color: #333333;
+                --sign-background-color: #333333;
+            }
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            color: var(--sign-text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .primary-color {
+            color: var(--sign-primary-color);
+            font-weight: 600;
+        }
+
+        .accent-color {
+            color: var(--sign-accent-color);
+            font-weight: 500;
+        }
+
+        .text-color {
+            color: var(--sign-text-color);
+        }
+
+        .description-color {
+            color: var(--sign-description-color);
+        }
+
+        .profile-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-link,
+        .social-link {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s ease;
+        }
+
+        .contact-link:hover,
+        .social-link:hover {
+            color: var(--sign-accent-color);
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+            justify-content: center;
+        }
+
+        .social-icon {
+            color: var(--sign-primary-color);
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: var(--sign-accent-color);
+        }
+
+        .signature-table {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        .signature-table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .details-cell {
+            text-align: left;
+        }
+
+        .name {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .position {
+            margin: 4px 0;
+            font-size: 14px;
+        }
+
+        .contact {
+            margin: 4px 0;
+            font-size: 14px;
+        }
+
+        .signature-box {
+            background-color: var(--sign-background-color);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 18px;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="signature-box">
+        <table class="signature-table">
+            <tr>
+                <td class="profile-cell">
+                    <div class="profile-container">
+                        <img src="https://www.usama.dev/UsamaSarwar.png" alt="Usama Sarwar" class="profile-image">
+                    </div>
+                </td>
+                <td class="details-cell">
+                    <h2 class="name primary-color">Usama Sarwar</h2>
+                    <p class="position accent-color">IT Head</p>
+                    <p class="contact description-color">
+                        <a href="tel:+923100007773" class="contact-link">
+                            <span class="material-icons">phone</span> (+92) 31-0000-777-3
+                        </a>
+                    </p>
+                    <p class="contact description-color">
+                        <a href="mailto:dev@mrconsultants.org" class="contact-link">
+                            <span class="material-icons">email</span> dev@mrconsultants.org
+                        </a>
+                    </p>
+                    <p class="contact description-color">
+                        <a href="https://mrconsultants.org" class="contact-link">
+                            <span class="material-icons">public</span> mrconsultants.org
+                        </a>
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/UsamaSarwarPro" target="_blank" class="social-link">
+                            <span class="material-icons social-icon">linkedin</span>
+                        </a>
+                        <a href="https://facebook.com/UsamaSarwarPro" target="_blank" class="social-link">
+                            <span class="material-icons social-icon">facebook</span>
+                        </a>
+                        <a href="https://instagram.com/UsamaSarwarPro" target="_blank" class="social-link">
+                            <span class="material-icons social-icon">instagram</span>
+                        </a>
+                        <a href="https://twitter.com/UsamaSarwarPro" target="_blank" class="social-link">
+                            <span class="material-icons social-icon">twitter</span>
+                        </a>
+                        <a href="https://github.com/UsamaSarwar" target="_blank" class="social-link">
+                            <span class="material-icons social-icon">code</span>
+                        </a>
+                        <a href="https://youtube.com/@UsamaSarwar" target="_blank" class="social-link">
+                            <span class="material-icons social-icon">youtube</span>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

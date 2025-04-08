@@ -10,7 +10,6 @@ You can view a live demo of the email signature template at: [Live Demo](https:/
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/UsamaSarwar/html_email_signature.git
-   cd html_email_signature
    ```
 
 2. **Update HTML and CSS:**
